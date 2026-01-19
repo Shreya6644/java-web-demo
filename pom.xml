@@ -37,7 +37,7 @@
 		<id>nexus</id>
 		<name>VM Snapshot Nexus Repository</name>
 		<url>http://18.61.157.119:8081/repository/vm-snapshot/</url>
-	</snapshotReository>
+	</snapshotRepository>
 
 </distributionManagement>
 
