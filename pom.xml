@@ -7,7 +7,7 @@
 
     <groupId>com.devops</groupId>
     <artifactId>java-web-demo</artifactId>
-    <version>1.0</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <name>Java Web Demo</name>
@@ -24,7 +24,22 @@
             <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
-    </dependencies>
+</dependencies>
+
+<distributionManagement>
+	<repository>
+		<id>nexus</id>
+		<name>VM Release Nexus Repository</name>
+		<url>http://18.61.157.119:8081/repository/vm-release/</url>
+	</repository>
+
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>VM Snapshot Nexus Repository</name>
+		<url>http://18.61.157.119:8081/repository/vm-snapshot/</url>
+	</snapshotReository>
+
+</distributionManagement>
 
     <build>
 	    <pluginManagement>
