@@ -1,5 +1,7 @@
 pipeline{
 agent any
+echo "The node name is: ${env.NODE_NAME}"
+echo "The build number is: ${env.BUILD_NUMBER}"
 tools{
  maven 'maven3.9.6'
 }
