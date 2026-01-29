@@ -12,7 +12,7 @@
 
     <name>Java Web Demo</name>
     <properties>
-	    <sonar.host.url>http://16.112.60.109:9000/</sonar.host.url>
+	    <sonar.host.url>http://18.60.40.95:9000/</sonar.host.url>
 	    <sonar.login>squ_5d6f2337c24c553a8bc5026719e1557645fe3da0</sonar.login>
     </properties>
 
